@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.5
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle test-proj@1.0.0~prestart: test-proj@1.0.0
+6 silly lifecycle test-proj@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle test-proj@1.0.0~start: test-proj@1.0.0
+8 verbose lifecycle test-proj@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle test-proj@1.0.0~start: PATH: F:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Home\PhpstormProjects\Test-react_new\React_test_shablon\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;f:\USR\apache;f:\USR\apache\bin;f:\USR\php;F:\wget;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\Skype\Phone\;F:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;f:\Program Files\Git\cmd;C:\Users\Home\AppData\Local\Microsoft\WindowsApps;C:\Users\Home\AppData\Roaming\npm;C:\Users\Home\AppData\Roaming\Composer\vendor\bin;C:\Users\Home\AppData\Local\GitHubDesktop\bin
+10 verbose lifecycle test-proj@1.0.0~start: CWD: C:\Users\Home\PhpstormProjects\Test-react_new\React_test_shablon
+11 silly lifecycle test-proj@1.0.0~start: Args: [ '/d /s /c', 'webpack-dev-server --progress --inline --hot' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at Object.exports._errnoException (util.js:1020:11)
+12 verbose stack     at process.kill (internal/process.js:191:18)
+12 verbose stack     at process.listener (F:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (F:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (F:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd C:\Users\Home\PhpstormProjects\Test-react_new\React_test_shablon
+14 error Windows_NT 10.0.15063
+15 error argv "F:\\Program Files\\nodejs\\node.exe" "F:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+16 error node v6.11.5
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
